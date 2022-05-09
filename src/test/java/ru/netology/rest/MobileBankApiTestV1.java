@@ -21,7 +21,7 @@ class MobileBankApiTestV1 {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("fail some data"))
+                .body("data", equalTo("some data"))
         ;
     }
 }
